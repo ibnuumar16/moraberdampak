@@ -1,0 +1,150 @@
+# =================================================
+# OPERATING SYSTEM / SYSTEM JUNK FILES
+# =================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Windows Installer
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# =================================================
+# ENVIRONMENT & SECURITY (WAJIB DI-IGNORE)
+# =================================================
+
+.env
+.env.*
+.vagrant
+Vagrantfile
+
+# =================================================
+# CODEIGNITER 4 WRITABLE DIRECTORY
+# =================================================
+
+writable/cache/*
+!writable/cache/index.html
+
+writable/logs/*
+!writable/logs/index.html
+
+writable/session/*
+!writable/session/index.html
+
+writable/uploads/*
+!writable/uploads/index.html
+
+writable/debugbar/*
+!writable/debugbar/.gitkeep
+
+php_errors.log
+
+# =================================================
+# USER GUIDE / CI INTERNAL TEMP FILES
+# =================================================
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+
+# =================================================
+# TESTING & COVERAGE
+# =================================================
+
+tests/coverage*
+/results/
+
+# PHPUnit binary & config
+phpunit
+phpunit*.xml
+
+# =================================================
+# COMPOSER
+# =================================================
+
+vendor/
+
+# =================================================
+# BUILD / DIST / EXPORT FILES
+# =================================================
+
+build/
+builds/
+dist/
+nbbuild/
+nbdist/
+
+# =================================================
+# DEBUG & LOG FILES (PROJECT-SPECIFIC)
+# =================================================
+
+debug_*.php
+error_log*.txt
+final_log.txt
+simple_log.txt
+temp_test_output.txt
+test_output.log
+
+# =================================================
+# IDE / EDITOR FILES
+# =================================================
+
+# JetBrains (PhpStorm, etc)
+.idea/
+*.iml
+
+# NetBeans
+nbproject/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+.phpintel
+
+# =================================================
+# PHP ENV / MODULES
+# =================================================
+
+.php-version
+_modules/*
+/api/
+
+# =================================================
+# IGNORE ALL XML FILES
+# =================================================
+
+*.xml
+
+# =================================================
+# ALLOW SEO FILES (WAJIB DIPUSH)
+# =================================================
+
+!public/sitemap.xml
+!public/robots.txt
